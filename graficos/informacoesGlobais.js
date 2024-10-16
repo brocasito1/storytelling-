@@ -1,4 +1,4 @@
-const url = 'https://github.com/brocasito1/API'
+const url = 'https://raw.githubusercontent.com/brocasito1/api/main/numero-usuarios.json'
 
 async function vizualizarInformacoesGlobais() {
     const res = await fetch(url)
